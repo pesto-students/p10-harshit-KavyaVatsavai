@@ -37,7 +37,7 @@ Data persistence or storage is for saving the data locally, like cookies. The br
 
 Please refer the image for better understanding:
 
-![alt text](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/componentsofbrowsers.png?raw=true)
+![componentsofbrowsers](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/componentsofbrowsers.png?raw=true)
 
 
 **3.The rendering engine**
@@ -48,7 +48,7 @@ Our reference browsers - Firefox, Chrome and Safari are built upon two rendering
 
 The rendering engine will start getting the contents of the requested document from the networking layer. This will usually be done in 8K chunks. After that this is the basic flow of the rendering engine:
 
-![alt text](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/renderingEngineFlow.png?raw=true)
+![renderingEngineFlow](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/renderingEngineFlow.png?raw=true)
 
 
 
@@ -56,7 +56,7 @@ The rendering engine will start parsing the HTML document and turn the tags to D
 
 It's important to understand that this is a gradual process. For better user experience, the rendering engine will try to display contents on the screen as soon as possible. It will not wait until all HTML is parsed before starting to build and layout the render tree. Parts of the content will be parsed and displayed, while the process continues with the rest of the contents that keeps coming from the network.
 
-![alt text](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/renderTreeConstruction.png?raw=true)
+![renderTreeConstruction](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/renderTreeConstruction.png?raw=true)
 
 
 Render tree construction
@@ -95,7 +95,7 @@ The last step is paint, which takes in the final render tree and renders the pix
 
 First, the browser combines the DOM and CSSOM into a "render tree," which captures all the visible DOM content on the page and all the CSSOM style information for each node.
 
-![alt text](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/treeConstruction.png?raw=true)
+![treeConstruction](https://github.com/pesto-students/p10-harshit-KavyaVatsavai/tree/code-kavya/treeConstruction.png?raw=true)
 
 
 To construct the render tree, the browser roughly does the following:
